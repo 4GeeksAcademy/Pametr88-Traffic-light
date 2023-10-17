@@ -10,3 +10,62 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.trafficLight {
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+
+}
+/* .light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.glow {
+    box-shadow: 0px 0px 9px 4px lightseagreen;
+} */
+
+/* semaforos apagados */
+.light_red {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.light_yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.light_green {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+/* semaforos encendidos */
+
+.light_red_glow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 0px 0px 9px 4px lightcoral;
+}
+.light_yellow_glow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0px 0px 9px 4px lightyellow;
+}
+.light_green_glow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    box-shadow: 0px 0px 9px 4px lightgreen;
+}
