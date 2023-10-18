@@ -14,7 +14,8 @@
     background-color: black;
     padding: 10px;
     display: inline-block;
-
+    align-items: center;
+    margin-left: 600px;
 }
 /* .light {
     width: 100px;
